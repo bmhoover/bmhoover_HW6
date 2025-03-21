@@ -46,9 +46,18 @@ main {
 }
 
 /* Headings */
-h1,
+h1 {
+  font-size: 32px;
+  color: white; /* Ensures visibility */
+  text-align: center;
+  padding: 20px;
+  background-color: #003366; /* Darker blue for contrast */
+  display: block;
+}
+
 h2 {
   color: #0056b3;
+  font-size: 26px;
 }
 
 /* Lists */
